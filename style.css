@@ -1,0 +1,160 @@
+.logo-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+     background-color: aquamarine;
+     width: 90%;
+     max-width: 650px;
+     margin: 20px auto;
+} 
+.logo-container img {
+    width:     150px;
+    height:    350px  ;
+    display: block;
+    background-color: aquamarine;
+    width: 90%;
+    max-width: 650px;
+    margin:  20px auto;
+    
+    
+     
+}
+.welcome-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-top: 20px;
+    padding: 0;
+    background-color: aquamarine;
+    width: 90%;
+    margin: 20px auto;
+    max-width: 650px;
+     
+} 
+.welcome-text h1{
+    font-size: 50px;
+    margin:  20px auto;
+    padding: 0;
+    background-color: aquamarine;
+    width: 90%;
+    max-width: 650px;
+ } 
+.welcome-text p{
+    font-size: 20px;
+    margin : 20px auto;
+    padding: 0;
+    max: width 650px;  
+    line-height: 1.5;
+    color: blue;
+    background-color: aquamarine;
+    width: 90%;
+
+
+}
+.pic-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    background-color: aquamarine;
+    width: 90%;
+    margin: 20px auto;
+    max-width: 650px;
+}
+.pic-container img{
+    width: 250px;
+    height: auto;
+    display: flow-root;
+    margin: 20px  auto;
+    max-width: 650px;
+}
+.anime-pot{
+    background-image:url("image/file_0000000050ac8211b3f9efd39d21ef25.png"); 
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin:20px auto; 
+    min-height:   100vh ;
+    padding: 20px;
+    max-width: 650px;
+    width: 90%;
+    box-sizing: border-box;
+
+} 
+.anime-pot ul{
+     
+    color: brown;
+   alighnment: center; 
+    align-items: center;
+    margin top: 20px; ; 
+    
+}
+.anime-pot li a{
+    color: rgb(231, 11, 66);
+}
+.anime-pot p{
+    text-align: center;
+    max-width: 600px;
+    margin: 0 aoto 30px;
+    padding: 0  10px;
+    box-sizing: border-box;
+    line-height: 1.6;
+
+}
+.contact{
+    background-color: rgb(106, 129, 114);
+    padding: 20px;
+    margin:20px auto;
+    max-width: 650px;
+    width: 90%;
+    box-sizing: border-box;
+}
+.contact p{
+    text-align: center;
+    max-width: 600px;
+    margin:0 auto 30px ;
+    padding: 0 10px;
+    box-sizing: border-box;
+    line-height: 1.6;  
+
+}
+.contact form{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+.contact label{
+    font-weight: bold;
+    color: blue;
+}
+.contact input,
+.contact textarea{
+    width: 100%;
+    padding: 12px;
+    border: 1px s0lid  ccccccc;
+    border-radius: 6px;
+    box-sizing : border-box;
+    font-size: 15px;
+}
+.contact input:focus,
+.contact textarea:focus{
+    outline: none;
+    border-color: antiquewhite;
+} 
+.contact button{
+    border-color: blue;
+    color: white;
+    padding: 8px 14px;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    width: 160px;
+} 
+.contact button:hover{
+    background-color: aqua;
+} 
